@@ -59,9 +59,9 @@ limit 1000
 
 
 /*
-Оптимізований запит  Execution Time: 111.824 ms
+Оптимізований запит	  Execution Time: 111.824 ms
 Нептимізований запит Execution Time: 2131.486 ms
-Різниця в 19 разів
+Різниця в 19 разів 
 Оптимізований запит Index Scan по даті, коли
 Неоптимізований використовує Seq Scan
 Оптимізований запит не використовував диск, вся робота велась в RAM   read=0
@@ -69,3 +69,45 @@ limit 1000
 Оптимізований запит набагато менше робив запитів в саму ж RAM shared hit=80120 проти  shared hit=4571944, 
 різниця в 57 разів
 */
+
+/*
+  	Оптимізований запит використовуючи налаштування планувальника
+ */
+SET enable_indexscan = off;
+SET enable_bitmapscan = off;
+SET enable_hashjoin = off;
+explain analyze 
+with filtredclients as (
+	select * from opt_clients where status='active'
+),
+filtredproducts as (
+	select * from opt_products where product_id>9930
+),
+filtredorders as (
+	select * from opt_orders where order_date>='2022-01-01' and order_date<'2023-01-01'
+),
+clientOrderProduct as (
+	select c.id,concat(c.name,' ',c.surname) as fullname,c.email,c.phone, c.address, c.status, o.order_id,o.order_date,o.product_id,p.product_name,p.product_category,p.description 
+	from filtredclients c join filtredorders o on c.id=o.client_id 
+	join filtredproducts p on o.product_id=p.product_id
+),
+activeClients as(
+	select client_id  as id from opt_orders group by client_id having count(*)>3
+),
+topCategory as (
+	select product_category from opt_products group by product_category order by count(*) desc limit 1
+)
+select * from clientOrderProduct c
+join activeClients a on c.id=a.id 
+where product_category in (select * from topCategory )
+order by fullname 
+limit 1000
+SET enable_indexscan = on;
+SET enable_bitmapscan = on;
+SET enable_hashjoin = on;
+/*
+  	Execution Time: 611.132 ms
+  	Buffers: shared hit=17378
+  	Використовував тільки Seq Scan
+ */
+
