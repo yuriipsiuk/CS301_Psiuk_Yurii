@@ -56,3 +56,16 @@ join activeClients a on c.id=a.id
 where product_category in (select * from topCategory )
 order by fullname 
 limit 1000
+
+
+/*
+Оптимізований запит  Execution Time: 111.824 ms
+Нептимізований запит Execution Time: 2131.486 ms
+Різниця в 19 разів
+Оптимізований запит Index Scan по даті, коли
+Неоптимізований використовує Seq Scan
+Оптимізований запит не використовував диск, вся робота велась в RAM   read=0
+Непотимізований read=360
+Оптимізований запит набагато менше робив запитів в саму ж RAM shared hit=80120 проти  shared hit=4571944, 
+різниця в 57 разів
+*/
