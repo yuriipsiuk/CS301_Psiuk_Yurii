@@ -1,0 +1,501 @@
+name,place_id,town
+River Steakhouse,1,Detroit
+Lucky Grill,2,Washington
+Maple Grill,3,Harrisburg
+Old Town Diner,4,Duluth
+Crimson Sushi,5,New Orleans
+Silver Burgers,6,Honolulu
+Blue Taqueria,7,Cincinnati
+Old Town Grill,8,Kalamazoo
+Hidden Sushi,9,Miami
+Corner Trattoria,10,Miami
+Blue Bakery,11,Virginia Beach
+Maple Steakhouse,12,Glendale
+Corner Steakhouse,13,Nashville
+Silver Trattoria,14,Woburn
+Lucky Kitchen,15,Phoenix
+Urban Steakhouse,16,Norfolk
+Hidden BBQ,17,Oklahoma City
+Harbor Taqueria,18,Waterbury
+Maple Burgers,19,Tampa
+Lucky Taqueria,20,Topeka
+Lucky Grill,21,Albuquerque
+River Diner,22,Saint Cloud
+Hidden Trattoria,23,Cincinnati
+Harbor Taqueria,24,Davenport
+Crimson Bistro,25,San Bernardino
+Old Town Sushi,26,Austin
+River Kitchen,27,Gastonia
+Urban Trattoria,28,Honolulu
+Lucky Burgers,29,Santa Cruz
+Golden Trattoria,30,Shawnee Mission
+Lucky Noodle Bar,31,Fort Wayne
+Silver Kitchen,32,Dallas
+Crimson Steakhouse,33,Los Angeles
+Golden Noodle Bar,34,Greensboro
+Crimson Burgers,35,Charleston
+Hidden Trattoria,36,Denver
+Lucky Bakery,37,Baton Rouge
+Cozy Kitchen,38,Tampa
+Maple Bistro,39,Salinas
+Old Town Pub,40,Albany
+Urban BBQ,41,Mobile
+Cozy Diner,42,Baton Rouge
+Golden Bakery,43,Fort Lauderdale
+Old Town Pizzeria,44,San Diego
+Blue Diner,45,Nashville
+Crimson Grill,46,Bethesda
+River Cafe,47,New York City
+Crimson Diner,48,Boulder
+Olive Steakhouse,49,Idaho Falls
+River Sushi,50,Cumming
+Harbor Noodle Bar,51,Galveston
+Crimson BBQ,52,Simi Valley
+Lucky BBQ,53,Levittown
+Silver BBQ,54,Portland
+Crimson Diner,55,Norfolk
+Olive Diner,56,Shreveport
+Golden Sushi,57,Pittsburgh
+Hidden Sushi,58,Tulsa
+Corner Sushi,59,Lima
+Cozy Diner,60,North Hollywood
+Crimson BBQ,61,Norfolk
+Lucky Kitchen,62,Fairfax
+Urban Bistro,63,Allentown
+Hidden Noodle Bar,64,Visalia
+Cozy Sushi,65,New Orleans
+Urban Kitchen,66,Lubbock
+Sunny Taqueria,67,Tuscaloosa
+Maple Taqueria,68,Springfield
+Cozy Taqueria,69,Fort Wayne
+Crimson Pub,70,Lexington
+Crimson Diner,71,Saint Paul
+Crimson BBQ,72,Durham
+Corner Bistro,73,Pueblo
+Harbor Cafe,74,Bronx
+River Pizzeria,75,Atlanta
+Golden Burgers,76,Tulsa
+River Diner,77,Honolulu
+Golden BBQ,78,El Paso
+Silver Noodle Bar,79,Fort Lauderdale
+Silver Bakery,80,Seattle
+Lucky Noodle Bar,81,Cleveland
+Corner Trattoria,82,Tulsa
+Sunny Bakery,83,El Paso
+Golden Noodle Bar,84,Birmingham
+Golden Burgers,85,Tampa
+Hidden Burgers,86,San Jose
+Urban Pub,87,Lexington
+Corner Bistro,88,Atlanta
+Sunny Trattoria,89,Saint Louis
+Hidden Noodle Bar,90,Orlando
+Corner Grill,91,Milwaukee
+Urban Bakery,92,San Bernardino
+Corner Diner,93,Birmingham
+Hidden Sushi,94,Raleigh
+Silver Taqueria,95,Melbourne
+Olive Bakery,96,Atlanta
+Maple Cafe,97,Carson City
+Blue Diner,98,Tulsa
+Olive Bistro,99,Gainesville
+Blue Pub,100,Raleigh
+River Bakery,101,Minneapolis
+Maple Sushi,102,Youngstown
+Sunny Bistro,103,Boise
+Golden Grill,104,North Port
+Hidden Burgers,105,Tyler
+Sunny Sushi,106,Johnson City
+Crimson Kitchen,107,San Diego
+Olive Steakhouse,108,Jackson
+Old Town Sushi,109,Mesquite
+River Noodle Bar,110,Saint Louis
+Corner Cafe,111,Houston
+Olive Noodle Bar,112,Wilkes Barre
+Golden Cafe,113,Detroit
+Sunny Burgers,114,Baltimore
+Blue Cafe,115,Cape Coral
+Maple Pub,116,Los Angeles
+Crimson Grill,117,Kansas City
+Old Town Trattoria,118,Spokane
+Golden Cafe,119,Reston
+Corner Diner,120,Sacramento
+Cozy Bakery,121,Cleveland
+River Pub,122,Cleveland
+Silver Bistro,123,Troy
+River Sushi,124,Washington
+Silver Bakery,125,Pittsburgh
+Lucky Bakery,126,Suffolk
+Crimson BBQ,127,Phoenix
+River Steakhouse,128,Brooklyn
+Lucky Bistro,129,Washington
+Lucky Trattoria,130,Dallas
+Hidden Bakery,131,San Diego
+Silver Diner,132,Rochester
+Harbor Burgers,133,Tyler
+Sunny Bistro,134,Arlington
+Crimson Pizzeria,135,Spokane
+Blue Steakhouse,136,Boston
+Cozy BBQ,137,Lakeland
+Hidden Trattoria,138,San Antonio
+Golden Grill,139,Vero Beach
+Urban Pub,140,Memphis
+Corner Cafe,141,Van Nuys
+Golden Diner,142,Charlotte
+Maple Grill,143,Washington
+Golden Bakery,144,Champaign
+Hidden Trattoria,145,Oakland
+Maple Bakery,146,Lexington
+Crimson Steakhouse,147,Gilbert
+Hidden Bistro,148,Greensboro
+Corner Steakhouse,149,Orange
+Urban BBQ,150,Pasadena
+Maple Steakhouse,151,New Orleans
+River Bakery,152,New Orleans
+Lucky Cafe,153,Austin
+Blue Pub,154,Kansas City
+Urban Sushi,155,New York City
+Old Town Kitchen,156,Las Vegas
+Urban BBQ,157,Winston Salem
+Urban Taqueria,158,Houston
+Harbor Noodle Bar,159,Orlando
+Olive Burgers,160,Washington
+Blue Grill,161,Newark
+Harbor Noodle Bar,162,Dallas
+Harbor Bakery,163,Sacramento
+Lucky Trattoria,164,Pensacola
+Sunny BBQ,165,Providence
+Cozy Kitchen,166,Chicago
+Old Town Kitchen,167,Bakersfield
+Cozy Grill,168,Aurora
+Urban Diner,169,Lincoln
+Old Town Steakhouse,170,Austin
+Silver BBQ,171,Aurora
+Old Town Trattoria,172,Albany
+Blue Kitchen,173,Brooklyn
+River Sushi,174,Louisville
+Maple Diner,175,Omaha
+Urban BBQ,176,San Bernardino
+Corner BBQ,177,San Antonio
+Corner Pizzeria,178,Charleston
+Hidden Pub,179,Albany
+Crimson Pizzeria,180,Newport News
+Golden Trattoria,181,Topeka
+River Kitchen,182,Springfield
+Sunny Burgers,183,Madison
+Golden Grill,184,Lynn
+Sunny Pizzeria,185,Newark
+Maple Kitchen,186,Carson City
+Golden Pizzeria,187,Bakersfield
+Lucky Burgers,188,Indianapolis
+Sunny Noodle Bar,189,Brea
+Cozy Noodle Bar,190,Boise
+Harbor Steakhouse,191,Fort Lauderdale
+Silver Steakhouse,192,Mobile
+Lucky BBQ,193,Los Angeles
+Crimson BBQ,194,Pasadena
+Maple Grill,195,Sacramento
+Hidden Bistro,196,Springfield
+Blue Cafe,197,Dayton
+Golden Pizzeria,198,Rochester
+Maple Trattoria,199,San Jose
+Lucky Trattoria,200,Clearwater
+Maple Diner,201,Baltimore
+Cozy Taqueria,202,Albuquerque
+Olive Pizzeria,203,Shreveport
+Harbor Steakhouse,204,Minneapolis
+River Taqueria,205,Waterbury
+Sunny Taqueria,206,Irvine
+Harbor Pizzeria,207,Tyler
+Olive BBQ,208,Salt Lake City
+Corner Kitchen,209,Tulsa
+Blue Trattoria,210,Tacoma
+Olive Pub,211,Cincinnati
+Cozy Noodle Bar,212,Omaha
+Harbor Pizzeria,213,Anaheim
+Hidden Bakery,214,Anderson
+Olive Bistro,215,Pasadena
+Corner Pub,216,San Jose
+Golden Diner,217,Boston
+Olive Diner,218,Murfreesboro
+Lucky Pub,219,Spring
+Maple Burgers,220,Monroe
+River Steakhouse,221,Baltimore
+Lucky Sushi,222,Fort Wayne
+Lucky Taqueria,223,Evansville
+Hidden Noodle Bar,224,New York City
+River Steakhouse,225,New York City
+Harbor Grill,226,Chicago
+Cozy Steakhouse,227,Boise
+Old Town Noodle Bar,228,Flint
+Golden Bistro,229,Jamaica
+Old Town Taqueria,230,Edmond
+Silver Diner,231,Evansville
+Hidden Pub,232,Philadelphia
+Harbor Diner,233,Louisville
+Sunny Bistro,234,Farmington
+Maple Burgers,235,Seattle
+Cozy Sushi,236,Sacramento
+Golden Bakery,237,Lancaster
+Olive Noodle Bar,238,Texarkana
+Golden Bakery,239,Reno
+Silver Bakery,240,San Antonio
+Olive Steakhouse,241,Knoxville
+Harbor Noodle Bar,242,Columbus
+River Taqueria,243,Lafayette
+Blue Pizzeria,244,Des Moines
+Harbor Diner,245,Lexington
+Maple Taqueria,246,Young America
+Olive Grill,247,Kansas City
+Hidden Bistro,248,Atlanta
+River Taqueria,249,Bonita Springs
+Cozy Cafe,250,Punta Gorda
+Old Town Bistro,251,Montgomery
+River Trattoria,252,Elizabeth
+Sunny Pizzeria,253,New Haven
+Sunny Kitchen,254,Tuscaloosa
+Corner Trattoria,255,Tallahassee
+Urban Taqueria,256,Jacksonville
+Lucky Taqueria,257,Houston
+Hidden Bakery,258,Denton
+Sunny Sushi,259,Chicago
+River BBQ,260,Norwalk
+Lucky Sushi,261,Birmingham
+Urban Diner,262,Columbia
+Urban Bistro,263,Shawnee Mission
+Blue Grill,264,Des Moines
+Golden Diner,265,Birmingham
+Sunny Bakery,266,North Little Rock
+Golden Diner,267,New Orleans
+Blue Grill,268,New York City
+Cozy Kitchen,269,Fresno
+Blue Noodle Bar,270,Modesto
+Crimson Steakhouse,271,Aurora
+Blue Diner,272,Tulsa
+Hidden Cafe,273,Bradenton
+Blue Grill,274,Colorado Springs
+Sunny Bakery,275,Anchorage
+River Sushi,276,Charleston
+Hidden Burgers,277,Buffalo
+Corner Bistro,278,Long Beach
+Harbor Trattoria,279,Charlotte
+Hidden Bistro,280,Kansas City
+Cozy Pizzeria,281,Migrate
+Lucky Trattoria,282,Mansfield
+Lucky Kitchen,283,Philadelphia
+Old Town BBQ,284,Green Bay
+Golden BBQ,285,Beaufort
+Cozy Bistro,286,Minneapolis
+Cozy Burgers,287,Charlotte
+Maple Kitchen,288,Miami
+Olive BBQ,289,Madison
+Silver Trattoria,290,Milwaukee
+Olive Taqueria,291,Tampa
+Silver BBQ,292,Columbus
+Old Town Burgers,293,Fort Worth
+Golden Pub,294,Young America
+River Burgers,295,Lexington
+Golden Steakhouse,296,Winter Haven
+Urban Diner,297,Montpelier
+Golden Diner,298,San Diego
+Sunny Sushi,299,Las Vegas
+Urban Diner,300,Washington
+River Kitchen,301,Aiken
+Harbor Pizzeria,302,Lancaster
+Maple Bistro,303,Charleston
+Crimson Burgers,304,Des Moines
+Crimson Kitchen,305,Phoenix
+Cozy Taqueria,306,Fredericksburg
+Olive Steakhouse,307,Wichita Falls
+Maple Grill,308,Laredo
+Cozy Diner,309,Greenville
+Golden Pub,310,Minneapolis
+Corner Trattoria,311,Chandler
+Urban Kitchen,312,Pensacola
+Harbor Sushi,313,Jacksonville
+Lucky Trattoria,314,Salt Lake City
+Sunny Diner,315,Winston Salem
+Olive Sushi,316,Charlotte
+River Bakery,317,Lubbock
+Corner Bakery,318,Newark
+Cozy Trattoria,319,Oklahoma City
+Lucky Steakhouse,320,Atlanta
+Lucky Kitchen,321,Frederick
+Corner Pizzeria,322,Lehigh Acres
+Sunny Grill,323,Florence
+Lucky Trattoria,324,San Diego
+Old Town Grill,325,Louisville
+Golden Bistro,326,Dallas
+Crimson Bistro,327,New Bedford
+Olive Sushi,328,Lansing
+Corner Diner,329,Pasadena
+Golden Steakhouse,330,Cambridge
+Hidden BBQ,331,Greenville
+Cozy Bistro,332,Harrisburg
+Golden Trattoria,333,Houston
+River Grill,334,Springfield
+Crimson Cafe,335,Montgomery
+Blue Pizzeria,336,Young America
+Cozy Burgers,337,Las Vegas
+Blue Pizzeria,338,Birmingham
+Olive Diner,339,Indianapolis
+River Burgers,340,Detroit
+Blue Pizzeria,341,Richmond
+Old Town Pub,342,Topeka
+Old Town Burgers,343,Fayetteville
+River Pub,344,Little Rock
+Urban Pizzeria,345,Wichita
+Olive Bistro,346,Sioux City
+Hidden Kitchen,347,Alexandria
+Cozy Grill,348,Fort Lauderdale
+Cozy Sushi,349,Honolulu
+Urban Sushi,350,Cincinnati
+Harbor Sushi,351,Atlanta
+Hidden Trattoria,352,Mobile
+Corner Bakery,353,Hollywood
+Blue Sushi,354,Saint Paul
+Corner Noodle Bar,355,Atlanta
+Old Town Grill,356,Hartford
+Lucky Grill,357,Brooklyn
+Urban Bistro,358,Washington
+River Pub,359,Shreveport
+Corner Kitchen,360,Seattle
+Old Town Pizzeria,361,Dayton
+Maple Bistro,362,Portsmouth
+Olive Noodle Bar,363,San Jose
+Hidden Steakhouse,364,Cleveland
+Cozy Diner,365,Lakewood
+Maple Noodle Bar,366,Port Charlotte
+Blue Taqueria,367,Prescott
+Olive Trattoria,368,Kansas City
+Crimson Sushi,369,Los Angeles
+Sunny Noodle Bar,370,Huntington
+Olive Bakery,371,Baton Rouge
+Lucky Bistro,372,Richmond
+Corner Steakhouse,373,Fort Myers
+Harbor Sushi,374,Pasadena
+Golden Pub,375,Miami
+Maple Taqueria,376,Monticello
+Blue Kitchen,377,Brooklyn
+Cozy Pizzeria,378,Omaha
+Lucky Trattoria,379,Atlanta
+Sunny Cafe,380,Wilkes Barre
+Old Town BBQ,381,Fullerton
+Golden Sushi,382,Rockford
+River Cafe,383,El Paso
+Urban BBQ,384,Manchester
+Olive Diner,385,Orlando
+Harbor Grill,386,Rochester
+Silver Sushi,387,Baltimore
+Olive Grill,388,Buffalo
+Lucky Sushi,389,Los Angeles
+Silver Pizzeria,390,Sioux Falls
+Sunny Bistro,391,Cincinnati
+Corner Grill,392,Boca Raton
+River Noodle Bar,393,Yakima
+Urban Pub,394,Saint Louis
+Crimson Trattoria,395,Salt Lake City
+Hidden Grill,396,Glendale
+Olive Pizzeria,397,Seattle
+Urban Pizzeria,398,Shreveport
+Olive Bakery,399,Jacksonville
+Lucky Trattoria,400,Saint Paul
+Lucky Kitchen,401,Columbus
+Hidden Grill,402,Abilene
+Corner Diner,403,Roanoke
+Crimson Bakery,404,Nashville
+Blue Pub,405,Trenton
+Crimson BBQ,406,Stamford
+Harbor Trattoria,407,Topeka
+Blue Steakhouse,408,Salt Lake City
+Lucky Kitchen,409,Cheyenne
+River Sushi,410,Mesa
+Golden Grill,411,Fort Lauderdale
+Harbor Burgers,412,Houston
+Blue Pub,413,Fort Worth
+Maple Sushi,414,Syracuse
+Maple Grill,415,Tampa
+Corner Kitchen,416,Worcester
+Hidden Kitchen,417,Houston
+Crimson Noodle Bar,418,Memphis
+Crimson Steakhouse,419,Fort Worth
+Urban Noodle Bar,420,New York City
+Old Town Pizzeria,421,Saint Cloud
+Golden Burgers,422,Fort Collins
+Corner Bakery,423,Fresno
+Golden Bistro,424,Pittsburgh
+Harbor Diner,425,El Paso
+Silver Taqueria,426,Anaheim
+Corner Sushi,427,Crawfordsville
+Olive Kitchen,428,Newark
+Old Town Sushi,429,Sacramento
+Cozy Taqueria,430,Shawnee Mission
+Sunny Sushi,431,Peoria
+Old Town Noodle Bar,432,Erie
+Sunny Bistro,433,Washington
+Blue Noodle Bar,434,Waco
+Silver Kitchen,435,Rochester
+Harbor Trattoria,436,Fresno
+Silver Burgers,437,Dallas
+Olive Trattoria,438,Shreveport
+Lucky BBQ,439,Wilmington
+Hidden Bakery,440,San Antonio
+Cozy Pizzeria,441,Fort Worth
+Old Town Noodle Bar,442,Duluth
+Crimson Kitchen,443,Corpus Christi
+Maple Kitchen,444,Portland
+Urban Pizzeria,445,Plano
+Cozy Cafe,446,Little Rock
+Sunny Steakhouse,447,Iowa City
+Lucky Bakery,448,Gary
+Maple Burgers,449,Meridian
+Old Town Bistro,450,Washington
+Olive Trattoria,451,Alpharetta
+River Diner,452,Albuquerque
+Corner Steakhouse,453,Colorado Springs
+Silver Sushi,454,Newark
+Crimson Cafe,455,Nashville
+River Noodle Bar,456,Salt Lake City
+Lucky Burgers,457,Tulsa
+River Taqueria,458,New Orleans
+Olive Kitchen,459,Long Beach
+Sunny Grill,460,Mobile
+River Trattoria,461,Southfield
+Blue Diner,462,Rochester
+River Cafe,463,Chicago
+Lucky Burgers,464,Saint Paul
+Corner Bakery,465,Utica
+Blue Sushi,466,Boca Raton
+Maple Burgers,467,Miami
+Hidden BBQ,468,Grand Rapids
+Hidden BBQ,469,Concord
+Crimson Bistro,470,Chicago
+Sunny BBQ,471,Shawnee Mission
+Maple Sushi,472,Amarillo
+Silver Diner,473,Miami
+Crimson Pub,474,Tacoma
+Crimson Burgers,475,San Jose
+Maple Noodle Bar,476,Sacramento
+Maple Pizzeria,477,Birmingham
+Hidden Grill,478,Oakland
+Maple Pizzeria,479,Sacramento
+Urban Cafe,480,Richmond
+Maple Noodle Bar,481,Young America
+Harbor Kitchen,482,Wichita
+Lucky Grill,483,Sacramento
+Sunny Pizzeria,484,Arlington
+Olive Trattoria,485,El Paso
+Sunny Trattoria,486,Orlando
+Silver Bakery,487,Schenectady
+Blue BBQ,488,Monticello
+Urban Burgers,489,Spokane
+River Diner,490,Jackson
+Cozy Sushi,491,Huntsville
+Maple Burgers,492,Tacoma
+Silver Taqueria,493,Paterson
+River BBQ,494,Dallas
+Sunny Pub,495,Little Rock
+Hidden Steakhouse,496,Akron
+Cozy Bistro,497,Kansas City
+Sunny Bistro,498,Merrifield
+Old Town Steakhouse,499,San Diego
+Golden Bistro,500,Saint Petersburg
