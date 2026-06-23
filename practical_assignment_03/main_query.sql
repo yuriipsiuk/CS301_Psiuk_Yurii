@@ -31,3 +31,38 @@ begin
 	end if;
 end;
 $$;
+/*Task 4*/
+create or replace function normalize ()
+returns trigger 
+language plpgsql
+as $$
+begin
+	update orders set total_amount=calculate_order_total (coalesce (new.order_id,old.order_id))
+	where order_id=coalesce (new.order_id,old.order_id);
+	return null;
+end;
+$$;
+
+
+create trigger update_order_total 
+after delete or insert or update on order_items
+for each row
+execute function  normalize();
+
+
+/*Task 5*/
+create or replace function add_log()
+returns trigger
+language plpgsql
+as $$
+begin
+	insert into order_log(order_id,customer_id,action,log_date) 
+	values(new.order_id,new.customer_id,'INSERT',current_timestamp);
+	return null;
+end;
+$$;
+
+create trigger logger
+after insert on orders
+for each row
+execute function add_log();
