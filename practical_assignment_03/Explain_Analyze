@@ -1,0 +1,43 @@
+Query:
+select oi.order_item_id,c.customer_id,c.full_name,o.order_date 
+from order_items oi
+join orders o on oi.order_id=o.order_id 
+join customers c on o.customer_id=c.customer_id 
+where o.order_date>='2026-01-01'
+order by c.full_name 
+
+Explain Analyze:
+Sort  (cost=101.07..102.26 rows=477 width=30) (actual time=1.333..1.346 rows=514.00 loops=1)
+  Sort Key: c.full_name
+  Sort Method: quicksort  Memory: 49kB
+  Buffers: shared hit=25
+  ->  Hash Join  (cost=58.96..79.85 rows=477 width=30) (actual time=0.319..0.518 rows=514.00 loops=1)
+        Hash Cond: (o.customer_id = c.customer_id)
+        Buffers: shared hit=25
+        ->  Hash Join  (cost=25.46..45.10 rows=477 width=16) (actual time=0.150..0.286 rows=514.00 loops=1)
+              Hash Cond: (oi.order_id = o.order_id)
+              Buffers: shared hit=14
+              ->  Seq Scan on order_items oi  (cost=0.00..17.00 rows=1000 width=8) (actual time=0.005..0.038 rows=1004.00 loops=1)
+                    Buffers: shared hit=7
+              ->  Hash  (cost=19.50..19.50 rows=477 width=16) (actual time=0.142..0.142 rows=478.00 loops=1)
+                    Buckets: 1024  Batches: 1  Memory Usage: 31kB
+                    Buffers: shared hit=7
+                    ->  Seq Scan on orders o  (cost=0.00..19.50 rows=477 width=16) (actual time=0.055..0.101 rows=478.00 loops=1)
+                          Filter: (order_date >= '2026-01-01 00:00:00'::timestamp without time zone)
+                          Rows Removed by Filter: 524
+                          Buffers: shared hit=7
+        ->  Hash  (cost=21.00..21.00 rows=1000 width=18) (actual time=0.166..0.166 rows=1001.00 loops=1)
+              Buckets: 1024  Batches: 1  Memory Usage: 58kB
+              Buffers: shared hit=11
+              ->  Seq Scan on customers c  (cost=0.00..21.00 rows=1000 width=18) (actual time=0.011..0.083 rows=1001.00 loops=1)
+                    Buffers: shared hit=11
+Planning:
+  Buffers: shared hit=12
+Planning Time: 0.394 ms
+Execution Time: 1.404 ms
+
+
+Оптимайзор робить запит, роблячи Seq Scan on order_items, Seq Scan on customers і Seq Scan on orders при хеш-джойнах. 
+Метод сортування квіксорт. Запит працював 0.394 ms.
+
+
