@@ -1,0 +1,6 @@
+create or replace function goals_for_team_count(p_team_id int)
+returns int
+as $$
+	select sum(goals) from footballer_info join footballers on footballer_info.id=footballers.footballer_id
+	join teams on teams.team_id=footballers.team_id where footballers.team_id=p_team_id;
+$$ language sql;
